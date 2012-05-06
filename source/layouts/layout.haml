@@ -1,0 +1,9 @@
+!!! 5
+%html
+  %head
+    %title= data.page.title || "Asiashop"
+    = stylesheet_link_tag "bootstrap"
+    = javascript_include_tag  "bootstrap"
+  %body
+    .container
+      = yield
