@@ -3,6 +3,10 @@ body {
     background-image: url(/images/back3.jpg);
    }
   &.paginas {
+    background-image: url(/images/back8.jpg);
+    background-repeat: repeat
+   }
+  &.paginasc {
     background-image: url(/images/backg.png);
     background-repeat: repeat
    }
@@ -11,46 +15,68 @@ body {
 }
 
 
-.mapa {
-  padding: 20px 20px 20px 5px
-}
 
 .socials {  
   padding: 10px;  
 }
 
+.mtitle {
+  font-family: 'Inika', arial, serif;
+  font-size: 300%;
+  color: #cc000b;
+  line-height: 2;
+  text-align: left;
+}
+
 .title {
   font-family: 'Poiret One', arial, serif;
   font-size: 250%;
-  color: green;
+  color: #cc000b;
   line-height: 2;
-  text-align: center;
+  text-align: left;
 }
+
 .texts {
   font-family: 'Poiret One', arial, serif;
   font-size: 180%;
-  color: green;
+  color: #204b02;
   line-height: 2;
   text-align: center;
 }
 .text {
   font-family: 'Poiret One', arial, serif;
   font-size: 180%;
-  color: green;
-  line-height: 1;
+  color: #204b02;
+  line-height: 1.5;
   text-align: center;
 }
 
-.adresst {
+.textp {
   font-family: 'Poiret One', arial, serif;
-  font-size: 200%;
-  color: white;
-  line-height: 2;
+  font-size: 180%;
+  color: #204b02;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+//hoja de contacto
+
+.mapa {
+  padding: 2px 2px 2px 2px;
+  border-style: ridge;
+}
+
+.adresst {
+  font-family: 'Inika', arial, serif;
+  font-size: 180%;
+  color: #cc000b;
+  line-height: 1.5;
   text-align: center;
 }
 .contacto {
   font-size: 120%;
-  color: black;
+  color: #204b02;
   line-height: 2;
   text-align: center;
   min-height: 20px;
@@ -69,19 +95,11 @@ body {
 }
 .adress {
   font-size: 120%;
-  color: white;
+  color: #204b02;
   line-height: 2;
 }
 
-.logo {
-  background-color: #1e7c02;
-  // red background-color: #d41f0c;
-  //width: 940px;
-  font-family: 'Poiret One', arial, serif;
-  text-align: center;
-  font-size: 200%;
-  color: white;
-  }
+
 //formato para sidebar
 .leaderboard h1 {  
   font-size: 40px;  
