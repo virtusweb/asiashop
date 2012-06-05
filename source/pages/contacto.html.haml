@@ -2,15 +2,14 @@
 layout: layout3
 ---
 .row
-  .span4
+  .span12
     %img{:src => "/images/logo.jpg", :alt => "Asia Shop"}
-  .span8
-    .contacto
-      Si deseas contactarte con nosotros para solicitar información de nuestros productos, te invitamos a llenar la forma de contacto.<br/> <a href="http://virtusweb.wufoo.com/forms/r7x2s9/">Clic aquí para llenar FORMA DE CONTACTO</a>
-.row 
-  .span4
-    .adresst
-      Asia Shop Feng Shui Boutique<br/>
+.row
+  .span6
+    %iframe{:allowTransparency => "true", :frameborder => "0", :height => "603", :scrolling => "no", :src => "http://virtusweb.wufoo.com/embed/r7x2s9/", :style => "width:100%;border:none"}
+    //%a{:href => "http://virtusweb.wufoo.com/forms/r7x2s9/"} Fill out my Wufoo form!
+
+  .span6
     .adress  
       Dirección: <br/> Dolores # 23 Col. Centro<br/>
       Delegación Cuauhtémoc, C.P. 06000<br/>
@@ -18,10 +17,16 @@ layout: layout3
       México.<br/>
       Ubicado en el Barrio Chino del Centro Historico entre las calles Independencia y Artículo 123 a una cuadra del Palacio de Bellas Artes<br/>
       Teléfono : 5512-6102<br/>
-      e-mail: info@asiashop.com.mx
-  .span8
+      e-mail: info@asiashop.com.mx<br/>
+
     .mapa
-      %iframe{:frameborder => "0", :height => "350", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=dolores+25,+col+centro+distrito+federal+mexico&aq=&sll=19.432749,-99.143331&sspn=0.000698,0.001206&t=m&ie=UTF8&hq=&hnear=Dolores,+Centro,+Cuauht%C3%A9moc,+Ciudad+de+M%C3%A9xico,+Distrito+Federal,+Mexico&ll=19.4326,-99.142964&spn=0.007082,0.009141&z=16&iwloc=A&output=embed", :width => "610"}
+      %iframe{:frameborder => "0", :height => "250", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=dolores+25,+col+centro+distrito+federal+mexico&aq=&sll=19.432749,-99.143331&sspn=0.000698,0.001206&t=m&ie=UTF8&hq=&hnear=Dolores,+Centro,+Cuauht%C3%A9moc,+Ciudad+de+M%C3%A9xico,+Distrito+Federal,+Mexico&ll=19.4326,-99.142964&spn=0.007082,0.009141&z=16&iwloc=A&output=embed", :width => "450"}
       %br/
       %small
-  %a{:href => "https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=dolores+25,+col+centro+distrito+federal+mexico&aq=&sll=19.432749,-99.143331&sspn=0.000698,0.001206&t=m&ie=UTF8&hq=&hnear=Dolores,+Centro,+Cuauht%C3%A9moc,+Ciudad+de+M%C3%A9xico,+Distrito+Federal,+Mexico&ll=19.4326,-99.142964&spn=0.007082,0.009141&z=16&iwloc=A", :style => "color:black;text-align:right"} View Larger Map
+  %a{:href => "https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=dolores+25,+col+centro+distrito+federal+mexico&aq=&sll=19.432749,-99.143331&sspn=0.000698,0.001206&t=m&ie=UTF8&hq=&hnear=Dolores,+Centro,+Cuauht%C3%A9moc,+Ciudad+de+M%C3%A9xico,+Distrito+Federal,+Mexico&ll=19.4326,-99.142964&spn=0.007082,0.009141&z=16&iwloc=A", :style => "color:black;text-align:right"} 
+
+
+
+.row 
+  .span4
+

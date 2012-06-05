@@ -1,15 +1,16 @@
 !!! 5
 %html
   %head
+    %script{:src => "twitter-bootstrap-v2/docs/assets/js/jquery.js"}
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
     %title= data.page.title || "Asiashop"
     = stylesheet_link_tag "bootstrap", "asia"
     = javascript_include_tag  "bootstrap"
+    %script{:src => "twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"}
     %link(href='http://fonts.googleapis.com/css?family=Poiret One&v1' rel='stylesheet' type='text/css')
     %link(href='http://fonts.googleapis.com/css?family=Inika&v1' rel='stylesheet' type='text/css')
-    %script{:src => "twitter-bootstrap-v2/docs/assets/js/jquery.js"}
-    %script{:src => "twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"}
-                    
+
+                 
 
   %body.principal
     .navbar.navbar-fixed-top
