@@ -6,8 +6,8 @@ body {
     background-image: url(/images/back8.jpg);
     background-repeat: repeat
    }
-  &.paginasc {
-    background-image: url(/images/backg.png);
+  &.paginash {
+    background-image: url(/images/backg1.png);
     background-repeat: repeat
    }
   padding-top: 50px;
@@ -55,6 +55,36 @@ body {
   font-family: 'Poiret One', arial, serif;
   font-size: 150%;
   color: #204b02;
+  line-height: 1.5;
+  text-align: justify;
+  font-weight: bold;
+}
+
+//horóscopo chino
+
+.titleph {
+  font-family: 'Poiret One', arial, serif;
+  font-size: 250%;
+  color: #fee41e;
+  line-height: 2;
+  text-align: left;
+  font-weight: bold;
+}
+
+.titleh {
+  font-family: 'Poiret One', arial, serif;
+  font-size: 150%;
+  color: #fee41e;
+  line-height: 2;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+.texth {
+  font-family: 'Inika', arial, serif;
+  font-size: 120%;
+  color: white;
   line-height: 1.5;
   text-align: justify;
   font-weight: bold;

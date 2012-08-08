@@ -7,7 +7,8 @@
     = stylesheet_link_tag "bootstrap", "asia"
     = javascript_include_tag  "bootstrap"
     %link(href='http://fonts.googleapis.com/css?family=Poiret One&v1' rel='stylesheet' type='text/css')
-  %body.paginas
+    %link(href='http://fonts.googleapis.com/css?family=Inika&v1' rel='stylesheet' type='text/css')
+  %body.paginash
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
@@ -35,47 +36,5 @@
               %li
                 %a{:href => "https://twitter.com/AsiaShopFSB", :target => "blank"} 
                   %img{:src => "/images/twitter.png", :alt => "Twitter"}           
-    .container
-      .row
-        .span8
-          .container.fluid
-            .row.fluid
-              .span3
-                %img{:src => "/images/logo.jpg", :alt => "Asia Shop"}
-                .well.sidebar-nav
-                  %ul.nav.nav-list
-                    %li.nav-header Productos
-                    %li
-                      %a{:href => "#"} Fuentes
-                    %li
-                      %a{:href => "#"} Inciensos
-                    %li
-                      %a{:href => "#"} Amuletos y Talismanes
-                    %li
-                      %a{:href => "#"} Artesanias Orientales
-                    %li
-                      %a{:href => "#"} Artículos de decoración
-                    %li
-                      %a{:href => "#"} Fragancias para aromaterapia
-                    %li.nav-header Feng Shui
-                    %li
-                      %a{:href => "#"} Protecciones Mensuales
-                    %li
-                      %a{:href => "#"} Discos de Mantras
-                    %li
-                      %a{:href => "#"} Activadores Energéticos
-                    %li
-                      %a{:href => "#"} Asesoría Feng Shui
-                    %li
-                      %a{:href => "/pages/horoscopo.html"} Horóscopo Chino
-                    %li
-                      %a{:href => "#"} Cuencos Tibetanos
-
-                / /.well
-              / /span
-              .span4
-                
-                = yield
-                
-
-
+  .container
+    = yield
