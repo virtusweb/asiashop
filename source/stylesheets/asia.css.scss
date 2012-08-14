@@ -7,7 +7,7 @@ body {
     background-repeat: repeat
    }
   &.paginash {
-    background-image: url(/images/backg1.png);
+    background-image: url(/images/backg3.png);
     background-repeat: repeat
    }
   padding-top: 50px;
@@ -71,6 +71,12 @@ body {
 
 //horóscopo chino
 
+
+.fondo {
+    background-image: url(/images/backg1.png);
+    background-repeat: repeat;
+    padding-right: 0px;
+}
 .titleph {
   font-family: 'Poiret One', arial, serif;
   font-size: 250%;
