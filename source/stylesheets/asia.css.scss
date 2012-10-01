@@ -1,13 +1,13 @@
 body {
   &.principal {
-    background-image: url(/images/back3.jpg);
+    background-image: url(/images/back3.png);
    }
   &.paginas {
-    background-image: url(/images/back8.jpg);
+    background-image: url(/images/back8.png);
     background-repeat: repeat
    }
   &.paginash {
-    background-image: url(/images/backg3.png);
+    background-image: url(/images/back8.png);
     background-repeat: repeat
    }
   padding-top: 50px;
@@ -26,47 +26,47 @@ body {
 }
 
 .title {
-  font-family: 'Poiret One', arial, serif;
+  font-family: 'Kotta One', arial, serif;
   font-size: 250%;
   color: #cc000b;
   line-height: 2;
   text-align: left;
-  font-weight: bold;
+  //font-weight: bold;
 }
 
 
 .stitle {
-  font-family: 'Poiret One', arial, serif;
+  font-family: 'Kotta One', arial, serif;
   font-size: 150%;
   color: #cc000b;
   line-height: 2;
   text-align: left;
-  font-weight: bold;
+  //font-weight: bold;
 }
 .texts {
-  font-family: 'Poiret One', arial, serif;
+  font-family: 'Kotta One', arial, serif;
   font-size: 180%;
   color: #204b02;
   line-height: 2;
   text-align: center;
 }
 .text {
-  font-family: 'Poiret One', arial, serif;
+  font-family: 'Kotta One', arial, serif;
   font-size: 180%;
   color: #204b02;
   line-height: 1.5;
   text-align: center;
-  font-weight: bold;
+  //font-weight: bold;
 
 }
 
 .textp {
-  font-family: 'Poiret One', arial, serif;
+  font-family: 'Kotta One', arial, serif;
   font-size: 140%;
   color: #204b02;
   line-height: 1.5;
   text-align: justify;
-  font-weight: bold;
+  //font-weight: bold;
 }
 
 //horóscopo chino
@@ -78,7 +78,7 @@ body {
     padding-right: 0px;
 }
 .titleph {
-  font-family: 'Poiret One', arial, serif;
+  font-family: 'Inika', arial, serif;
   font-size: 250%;
   color: #fee41e;
   line-height: 2;
@@ -87,7 +87,7 @@ body {
 }
 
 .titleh {
-  font-family: 'Poiret One', arial, serif;
+  font-family: 'Inika', arial, serif;
   font-size: 150%;
   color: #fee41e;
   line-height: 2;
@@ -97,7 +97,7 @@ body {
 }
 
 .texth {
-  font-family: 'Inika', arial, serif;
+  font-family: 'Kotta One', arial, serif;
   font-size: 120%;
   color: white;
   line-height: 1.5;
@@ -165,7 +165,7 @@ body {
   }  
   
 .nav .nav-header {  
-  font-size: 18px;  
+  font-size: 16px;  
   color:#ca0010;  
-  font-family: 'Poiret One', arial, serif; 
+  font-family: 'Kotta One', arial, serif; 
   }  
