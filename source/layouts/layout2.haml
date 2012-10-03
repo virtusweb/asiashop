@@ -9,9 +9,21 @@
     = javascript_include_tag  "bootstrap"
     %link(href='http://fonts.googleapis.com/css?family=Kotta One&v1' rel='stylesheet' type='text/css')
    
+    %script{:src => "/javascripts/jquery.js", :type => "text/javascript"}
+    %script{:src => "/javascripts/layout.js", :type => "text/javascript"}
+    %script{:src => "/javascripts/bootstrap-carousel.js", :type => "text/javascript"}
+
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js", :type => "text/javascript"}
     %script{:src => "/javascripts/cloud-zoom.1.0.2.js", :type => "text/javascript"}
     
+    :javascript
+      $(function(){
+        $('.carousel').carousel({interval: 1500});
+      });
+    
+
+
+    //layout pages
 
   %body.paginas
     .navbar.navbar-fixed-top
@@ -31,7 +43,7 @@
               %li
                 %a{:href => "/pages/fengshui.html"} Feng Shui
               %li
-                %a{:href => "/pages/productos.html"} Productos
+                %a{:href => "/pages/asesoria.html"} Asesoría Feng Shui
               %li
                 %a{:href => "/pages/contacto.html"} Contacto
               %li.divider-vertical
@@ -52,30 +64,30 @@
                   %ul.nav.nav-list
                     %li.nav-header Productos
                     %li
-                      %a{:href => "/pages/fuentes.html"} Fuentes
+                      %a{:href => "/pages/amuletos.html"} Amuletos y Talismanes
                     %li
                       %a{:href => "/pages/inciensos.html"} Inciensos
+
                     %li
-                      %a{:href => "/pages/amuletos.html"} Amuletos y Talismanes
+                      %a{:href => "/pages/fuentes.html"} Fuentes
                     %li
                       %a{:href => "/pages/artesanias.html"} Artesanias Orientales
                     %li
                       %a{:href => "/pages/decoracion.html"} Artículos de decoración
                     %li
                       %a{:href => "/pages/fragancias.html"} Fragancias para aromaterapia
+                    %li
+                      %a{:href => "/pages/cuencos.html"} Cuencos Tibetanos
+
                     %li.nav-header Feng Shui
                     %li
                       %a{:href => "/pages/protecciones.html"} Protecciones Mensuales
                     %li
                       %a{:href => "/pages/discos.html"} Discos de Mantras
                     %li
-                      %a{:href => "/pages/activadores.html"} Activadores Energéticos
-                    %li
                       %a{:href => "/pages/asesoria.html"} Asesoría Feng Shui
                     %li
                       %a{:href => "/pages/horoscopo.html"} Horóscopo Chino
-                    %li
-                      %a{:href => "/pages/cuencos.html"} Cuencos Tibetanos
 
                 / /.well
               / /span
@@ -93,4 +105,4 @@
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+      })();

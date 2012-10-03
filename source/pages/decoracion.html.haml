@@ -4,60 +4,30 @@ layout: layout2
 .row
   .span6
     .title    
-      Artículos de Decoración
-.container
-  .row
-    .span3
-      %a#zoom1.cloud-zoom{:href => "/images/productos/samurailarge.jpg", :rel => "adjustX: 10, adjustY:-4"}
-        %img{:alt => "", :src => "/images/productos/samurai.jpg", :title => "Samurai Oda"}/
+      Artículos de Decoración<br/>
+      <br/>
+      #myCarousel.carousel.slide
+        .carousel-inner
+          .item.active
+            = image_tag "/images/decoracion/asiashop.png"
+            .carousel-caption
+              %h4 Productos de Decoración
+              %p estos son algunos ejemplos
+          .item
+            = image_tag "/images/decoracion/piramidecristal.png"
+            .carousel-caption
+              %h4 Pirámide de Cristal
+              %p Contamos con diferentes tipo de pirámides
+          .item
+            = image_tag "/images/decoracion/caballodragon.png"
+            .carousel-caption
+              %h4 Caballo Dragón
+              %p Chilin de Resina Par
+          
+        %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"} ‹
+        %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"} ›
+      
 
 
-    .span4
-      %table.table.table-bordered
-        %thead
-          %tr
-            %th Artículo
-            %th Descripción
-        %tbody
-          %tr
-            %td Samurai
-            %td 16022-SAMURAI ODA 6696
-
-  <br/>
-  .row
-    .span3
-      %a#zoom1.cloud-zoom{:href => "/images/productos/16023-SAMURAISANADA6698l.JPG", :rel => "adjustX: 10, adjustY:-4"}
-        %img{:alt => "", :src => "/images/productos/16023-SAMURAISANADA6698.JPG", :title => "Samurai Sanada"}/
-
-
-    .span4
-      %table.table.table-bordered
-        %thead
-          %tr
-            %th Artículo
-            %th Descripción
-        %tbody
-          %tr
-            %td Samurai
-            %td 16022-SAMURAI SANADA 6698
-
-
-  <br/>
-  .row
-    .span3
-      %a#zoom1.cloud-zoom{:href => "/images/productos/16025-LAJUSTICIAL.JPG", :rel => "adjustX: 10, adjustY:-4"}
-        %img{:alt => "", :src => "/images/productos/16025-LAJUSTICIA.JPG", :title => "La Justicia"}/
-
-
-    .span4
-      %table.table.table-bordered
-        %thead
-          %tr
-            %th Artículo
-            %th Descripción
-        %tbody
-          %tr
-            %td LA JUSTICIA
-            %td 16025-LA JUSTICIA
 
 
