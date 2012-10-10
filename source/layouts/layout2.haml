@@ -5,24 +5,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     %meta{:content => "IE=9", "http-equiv" => "X-UA-Compatible"}/
     %title= data.page.title || "Asiashop"
-    = stylesheet_link_tag "bootstrap", "asia", "cloud-zoom"
+    = stylesheet_link_tag "bootstrap", "asia", "anythingzoomer"
     = javascript_include_tag  "bootstrap"
     %link(href='http://fonts.googleapis.com/css?family=Kotta One&v1' rel='stylesheet' type='text/css')
    
     %script{:src => "/javascripts/jquery.js", :type => "text/javascript"}
     %script{:src => "/javascripts/layout.js", :type => "text/javascript"}
-    %script{:src => "/javascripts/bootstrap-carousel.js", :type => "text/javascript"}
 
-    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js", :type => "text/javascript"}
-    %script{:src => "/javascripts/cloud-zoom.1.0.2.js", :type => "text/javascript"}
-    
-    :javascript
-      $(function(){
-        $('.carousel').carousel({interval: 1500});
-      });
+
     
 
-
+       
+   
     //layout pages
 
   %body.paginas
@@ -96,13 +90,4 @@
                 = yield
                 
 
-    :javascript
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-254857-6']);
-      _gaq.push(['_trackPageview']);
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();

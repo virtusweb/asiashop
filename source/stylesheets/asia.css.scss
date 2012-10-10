@@ -3,8 +3,8 @@ body {
     background-image: url(/images/back3.png);
    }
   &.paginas {
-    background-image: url(/images/back8.png);
-    background-repeat: repeat
+    //background-image: url(/images/back8.png);
+    //background-repeat: repeat
    }
   &.paginash {
     background-image: url(/images/back8.png);
@@ -31,7 +31,7 @@ body {
   color: #cc000b;
   line-height: 2;
   text-align: left;
-  //font-weight: bold;
+
 }
 
 
@@ -41,7 +41,7 @@ body {
   color: #cc000b;
   line-height: 2;
   text-align: left;
-  //font-weight: bold;
+
 }
 .texts {
   font-family: 'Kotta One', arial, serif;
@@ -56,7 +56,7 @@ body {
   color: #204b02;
   line-height: 1.5;
   text-align: center;
-  //font-weight: bold;
+
 
 }
 
@@ -66,7 +66,7 @@ body {
   color: #204b02;
   line-height: 1.5;
   text-align: justify;
-  //font-weight: bold;
+
 }
 
 .texta {
@@ -74,8 +74,7 @@ body {
   font-size: 100%;
   color: #204b02;
   line-height: 1.5;
-  //text-align: justify;
-  //font-weight: bold;
+
 }
 
 
@@ -84,8 +83,6 @@ body {
   font-size: 120%;
   color: black;
   line-height: 1.5;
-  //text-align: justify;
-  //font-weight: bold;
 }
 
 
@@ -129,14 +126,11 @@ body {
 
 
 
-//hoja de contacto
-
+//formato para hoja de contacto
 .mapa {
   padding: 2px 2px 2px 2px;
   border-style: ridge;
 }
-
-
 
 .contacto {
   font-size: 120%;
@@ -192,36 +186,5 @@ body {
   font-family: 'Kotta One', arial, serif; 
   }  
 
-
-//Galería Artículos decoración
-#myGallery {
-	width: 100%;
-	height: 100px;
-}
-#myGallery img {
-	border: 2px solid #52697E;
-}
-a.loading {
-	background: #fff url(/images/ajax_small.gif) no-repeat center;
-}
-
-.spacegallery {
-	position: relative;
-	overflow: hidden;
-}
-.spacegallery img {
-	position: absolute;
-	left: 50%;
-}
-.spacegallery a {
-	position: absolute;
-	z-index: 1000;
-	display: block;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: url(/images/blank.gif);
-}
 
 
