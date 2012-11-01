@@ -4,11 +4,11 @@ body {
    }
   &.paginas {
     background-image: url(/images/back8.png);
-    background-repeat: repeat
+    background-attachment: fixed;
    }
   &.paginash {
     background-image: url(/images/back8.png);
-    background-repeat: repeat
+    background-attachment: fixed;
    }
   padding-top: 50px;
   background-size: cover;
